@@ -100,7 +100,6 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-	  //Flash the RGN LED
 	  //Turn on and off Red LED with a 250ms delay
 	  HAL_GPIO_WritePin(LED_Red_GPIO_Port, LED_Red_Pin, GPIO_PIN_SET);
 	  HAL_Delay(250);
